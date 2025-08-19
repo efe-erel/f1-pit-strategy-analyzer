@@ -34,10 +34,10 @@ TEAM_COLOR_MAP = {
     "Mercedes": "#C8CCCE",
     "McLaren": "#FF6A13",
     "Aston Martin": "#037A68",
-    "Haas": "#EB0A1E",
+    "Haas F1 Team": "#EB0A1E",
     "Alpine": "#F1A7D1",
     "Kick Sauber": "#53FC18",
-    "RB": "#FFFFFF",
+    "Racing Bulls": "#6667AB",  # Mor/mavi tonunda, Red Bull'dan farklı
     "Williams": "#00A0DE"
 }
 

@@ -31,7 +31,7 @@ Run the script:
 python pitstops.py
 ```
 
-1. Select a Grand Prix (1-14)
+1. Select a Grand Prix (1-15)
 2. View the tire strategy visualization
 3. Analyze pit stop strategies by driver finish position
 
@@ -51,7 +51,7 @@ python pitstops.py
 12. British Grand Prix
 13. Belgian Grand Prix
 14. Hungarian Grand Prix
-15. Dutch Grand Prix *(upcoming)*
+15. Dutch Grand Prix 
 16. Italian Grand Prix *(upcoming)*
 17. Azerbaijan Grand Prix *(upcoming)*
 18. Singapore Grand Prix *(upcoming)*

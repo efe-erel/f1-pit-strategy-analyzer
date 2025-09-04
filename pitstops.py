@@ -4,8 +4,6 @@ F1 Pit Strategy Analyzer
 Visualizes tire strategies for Formula 1 races from the 2025 season.
 Shows color-coded tire compound usage across race distance for each driver.
 
-Author: Efe
-Date: August 2025
 """
 
 from matplotlib import pyplot as plt
@@ -37,7 +35,7 @@ TEAM_COLOR_MAP = {
     "Haas F1 Team": "#EB0A1E",
     "Alpine": "#F1A7D1",
     "Kick Sauber": "#53FC18",
-    "Racing Bulls": "#6667AB",  # Mor/mavi tonunda, Red Bull'dan farklı
+    "Racing Bulls": "#6667AB", 
     "Williams": "#00A0DE"
 }
 
@@ -57,7 +55,7 @@ GRAND_PRIX_NAMES = [
     "British Grand Prix",         # 12
     "Belgian Grand Prix",         # 13
     "Hungarian Grand Prix",       # 14
-    # "Dutch Grand Prix",         # 15
+    "Dutch Grand Prix",           # 15
     # "Italian Grand Prix",       # 16
     # "Azerbaijan Grand Prix",    # 17
     # "Singapore Grand Prix",     # 18
@@ -72,12 +70,12 @@ GRAND_PRIX_NAMES = [
 # load session data (year, round, session_type(R=race))
 while True:
     try:
-        race_number = input("Choose a Grand Prix from the 2025 (1-14): ")
+        race_number = input("Choose a Grand Prix from the 2025 (1-15): ")
         race_num = int(race_number)
-        if 1 <= race_num <= 14:
+        if 1 <= race_num <= 15:
             break
         else:
-            print("Error: Please enter a number between 1 and 14.")
+            print("Error: Please enter a number between 1 and 15.")
     except ValueError:
         print("Error: Please enter a valid number.")
 

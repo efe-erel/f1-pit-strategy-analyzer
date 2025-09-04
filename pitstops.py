@@ -35,7 +35,7 @@ TEAM_COLOR_MAP = {
     "Haas F1 Team": "#EB0A1E",
     "Alpine": "#F1A7D1",
     "Kick Sauber": "#53FC18",
-    "Racing Bulls": "#6667AB", 
+    "Racing Bulls": "#6667AB",
     "Williams": "#00A0DE"
 }
 

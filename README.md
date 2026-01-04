@@ -4,7 +4,7 @@ A Python-based Formula 1 pit strategy visualization tool that analyzes tire stra
 
 ## Features
 
-- **Interactive Race Selection**: Choose a Grand Prix from 2025 season so far
+- **Interactive Race Selection**: Choose any Grand Prix from the complete 2025 season
 - **Tire Strategy Visualization**: Color-coded tire compounds (Soft, Medium, Hard, Intermediate, Wet)
 - **Driver Performance**: Shows strategies sorted by finish position
 - **Error Handling**: Robust input validation for race selection
@@ -31,11 +31,11 @@ Run the script:
 python pitstops.py
 ```
 
-1. Select a Grand Prix (1-15)
+1. Select a Grand Prix (1-24)
 2. View the tire strategy visualization
 3. Analyze pit stop strategies by driver finish position
 
-## Grand Prix List (2025 Season)
+## Grand Prix List (2025 Season - Complete)
 
 1. Australian Grand Prix
 2. Chinese Grand Prix
@@ -51,16 +51,16 @@ python pitstops.py
 12. British Grand Prix
 13. Belgian Grand Prix
 14. Hungarian Grand Prix
-15. Dutch Grand Prix 
-16. Italian Grand Prix *(upcoming)*
-17. Azerbaijan Grand Prix *(upcoming)*
-18. Singapore Grand Prix *(upcoming)*
-19. United States Grand Prix *(upcoming)*
-20. Mexican Grand Prix *(upcoming)*
-21. São Paulo Grand Prix *(upcoming)*
-22. Las Vegas Grand Prix *(upcoming)*
-23. Qatar Grand Prix *(upcoming)*
-24. Abu Dhabi Grand Prix *(upcoming)*
+15. Dutch Grand Prix
+16. Italian Grand Prix
+17. Azerbaijan Grand Prix
+18. Singapore Grand Prix
+19. United States Grand Prix
+20. Mexican Grand Prix
+21. São Paulo Grand Prix
+22. Las Vegas Grand Prix
+23. Qatar Grand Prix
+24. Abu Dhabi Grand Prix
 
 ## Color Coding
 

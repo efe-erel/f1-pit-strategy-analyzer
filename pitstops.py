@@ -56,26 +56,26 @@ GRAND_PRIX_NAMES = [
     "Belgian Grand Prix",         # 13
     "Hungarian Grand Prix",       # 14
     "Dutch Grand Prix",           # 15
-    # "Italian Grand Prix",       # 16
-    # "Azerbaijan Grand Prix",    # 17
-    # "Singapore Grand Prix",     # 18
-    # "United States Grand Prix", # 19
-    # "Mexican Grand Prix",       # 20
-    # "São Paulo Grand Prix",     # 21
-    # "Las Vegas Grand Prix",     # 22
-    # "Qatar Grand Prix",         # 23
-    # "Abu Dhabi Grand Prix"      # 24
+    "Italian Grand Prix",         # 16
+    "Azerbaijan Grand Prix",      # 17
+    "Singapore Grand Prix",       # 18
+    "United States Grand Prix",   # 19
+    "Mexican Grand Prix",         # 20
+    "São Paulo Grand Prix",       # 21
+    "Las Vegas Grand Prix",       # 22
+    "Qatar Grand Prix",           # 23
+    "Abu Dhabi Grand Prix"        # 24
 ]
 
 # load session data (year, round, session_type(R=race))
 while True:
     try:
-        race_number = input("Choose a Grand Prix from the 2025 (1-15): ")
+        race_number = input("Choose a Grand Prix from the 2025 season (1-24): ")
         race_num = int(race_number)
-        if 1 <= race_num <= 15:
+        if 1 <= race_num <= 24:
             break
         else:
-            print("Error: Please enter a number between 1 and 15.")
+            print("Error: Please enter a number between 1 and 24.")
     except ValueError:
         print("Error: Please enter a valid number.")
 
